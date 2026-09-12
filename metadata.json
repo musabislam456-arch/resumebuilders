@@ -1,0 +1,7 @@
+{
+  "name": "ResumeBuilder Pro",
+  "description": "Professional ATS-friendly resume builder with customizable templates, real-time live preview, and instant PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
