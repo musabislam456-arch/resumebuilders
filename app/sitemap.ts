@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/lib/blog-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://resumebuilderpro.app';
+  const baseUrl = 'https://resumebuilders.utilix.site';
 
   const staticPages = [
     '',
