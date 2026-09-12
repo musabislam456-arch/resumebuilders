@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://resumebuilderpro.app/sitemap.xml',
+    sitemap: 'https://resumebuilders.utilix.site/sitemap.xml',
   };
 }
