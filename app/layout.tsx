@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://resumebuilders.utilix.site'),
   title: 'ResumeBuilder Pro — Modern ATS-Friendly Resume Builder',
   description:
     'Create an executive-level, ATS-optimized resume in minutes with live real-time preview, professional templates, and instant 300 DPI PDF export. 100% private, client-side tool.',
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     description:
       'Engineered for 2026 applicant tracking systems. Live real-time preview, multi-template switching, and 1-click vector PDF export.',
     type: 'website',
-    url: 'https://resumebuilderpro.app',
+    url: 'https://resumebuilders.utilix.site',
     siteName: 'ResumeBuilder Pro',
   },
   twitter: {
@@ -49,4 +50,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
