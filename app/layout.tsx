@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     description:
       'Create an executive-level, ATS-optimized resume in minutes with live real-time preview and instant PDF export.',
   },
+  verification: {
+    google: 'I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
