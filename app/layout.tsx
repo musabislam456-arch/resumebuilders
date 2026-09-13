@@ -24,13 +24,28 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://resumebuilders.utilix.site',
     siteName: 'ResumeBuilder Pro',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'ResumeBuilder Pro — Modern ATS-Friendly Resume Builder',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ResumeBuilder Pro — Modern ATS-Friendly Resume Builder',
     description:
       'Create an executive-level, ATS-optimized resume in minutes with live real-time preview and instant PDF export.',
+    images: ['/opengraph-image'],
   },
+  icons: {
+    icon: '/icon',
+    shortcut: '/icon',
+    apple: '/apple-icon',
+  },
+  manifest: '/manifest.webmanifest',
   verification: {
     google: 'I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s',
   },
